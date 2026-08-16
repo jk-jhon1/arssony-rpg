@@ -8,7 +8,7 @@
 |---|---|---:|---|---|
 | Cena de referência | Composição de mundo, herói, inimigos e HUD | 1920×1080 px, tela de instruções | `/manus-storage/arssony-visual-target_7f489c5d.png` | Painel inicial e QA de arte |
 | Marca de duas lâminas | Símbolo em ferro e vermelho | 44×44 px | `/manus-storage/arssony-rune-mark_183aba07.png` | Cabeçalho do HUD e favicon visual |
-| Retrato de Arssony | Retrato de três quartos do protagonista | 180×240 px | `/manus-storage/arssony-character-portrait_3c4fb577.png` | Painel de abertura e ficha do herói |
+| Retrato de Arssony | Imagem de referência enviada pelo usuário | 180×240 px | `/manus-storage/arssony-user-reference_9efc9cfc.png` | Painel de abertura e ficha do herói |
 
 ## Texturas
 
