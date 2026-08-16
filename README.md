@@ -91,4 +91,4 @@ As imagens e a configuração pública do Hero Forge fornecidas pelo usuário fo
 
 ## Próximos incrementos sugeridos
 
-Uma continuação natural é expandir a rota de Movium para áreas conectadas, adicionar missões, inventário, efeitos sonoros ativados por gesto, progresso salvo e modelos animados originais. Esses itens foram deliberadamente deixados fora do primeiro protótipo para manter esta versão pequena, responsiva e verificável no navegador.
+Uma continuação natural é expandir a rota de Movium para áreas conectadas, adicionar missões, inventário, efeitos sonoros ativados por gesto, progresso salvo e modelos animados originais. Esses itens foram deliberadamente deixados fora do primeiro protótipo para manter esta versão pequena, responsiva e verificável no navegador..
