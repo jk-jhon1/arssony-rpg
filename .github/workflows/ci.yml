@@ -1,0 +1,29 @@
+name: Validar Arssony RPG 3D
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+      - name: Verificar TypeScript
+        run: pnpm check
+      - name: Gerar build de produção
+        run: pnpm build
